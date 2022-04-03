@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTISTS</title>
+    <link rel="stylesheet" type="text/css" href="basic.css">
+    <style>
+
+img.center{
+    display:block;
+margin-left :auto;
+margin-right:auto;
+}
+img{
+    width: 20cm;
+    height: 20cm;
+}
+.flip {
+        margin: 0%;
+  background-color: transparent;
+  width: 20cm;
+  height: 20cm;
+  
+  perspective: 1000px; 
+}
+
+
+.flipin {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip:hover .flipin {
+  transform: rotateY(180deg);
+}
+
+
+.flip-front, .flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.pad{
+  text-align: center;  
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 0.8cm;
+  
+}
+
+
+
+.flip-back {
+  background-color: mediumvioletred;
+  transform: rotateY(180deg);
+}
+
+
+    </style>
+</head>
+<body bgcolor="black">
+  <div id="navbar">
+    <a href="login.html">Login/Sign-up</a>
+    <div class="dropdown">
+      <button class="dropbtn">View By 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="category.html">Category</a><br>
+        <a href="artist.html">Artist</a><br>
+      </div>
+    </div> 
+    <a href="wp.html">Home</a>
+  </div>
+    <h2 class="btn">FEATURED ART CREATORS</h2>
+    <table border="0" align="center" cellpadding="50px">
+        <tr>
+            <td>
+                <div class="flip" >
+                    <div class="flipin">
+                      <div class="flip-front" >
+                        <img src="Surrealism1.jpeg" alt="Prabhakar">
+                      </div>
+                      <div class="flip-back" >
+                        <p class="pad"><U>ABOUT</U>
+                        <br>
+                        Members of Prabhakar Pachpute's family have worked in the coal mines of Chandrapur,
+         Central India, for three generations.  He frequently draws directly onto walls and has created spectacular mural installations and 
+           immersive environments of wondrous landscapes and dreamlike figures. These figures are workers with their faces sometimes
+            replaced by incorporating actual light switches, reflecting both his surrealistic aesthetic 
+            and the subsuming of the individual into the larger labour force. 
+                      </p>
+                      </div>
+                    </div>
+                  </div><br>
+            </td>
+            <td>
+                <div class="flip" >
+                    <div class="flipin">
+                      <div class="flip-front" >
+                        <img src="canvas1.jpeg" alt="Natasha">
+                      </div>
+                      <div class="flip-back">
+                        <p class="pad" ><U>ABOUT</U>
+                        <br>
+                        A self taught artist since the beginning, She has always had
+interest and have been passionate about art since my childhood.
+Born and brought up in Delhi, she has always had interest and
+and felt immense happiness while practicing painting on the walls
+of my house. Developing her art skills over the years, she now feels
+that she is ready to showcase her talent into this beautiful world out there.
+                        </p>
+                      </div>
+                    </div>
+                  </div><br>
+            </td>
+        </tr>
+        <tr>
+          <td><p><a href="Prabhakar.html" class="left"><font color="white">Prabhakar Pachpute</font></a></p></td>
+          <td><p><a href="Natasha.html" class="left"><font color="white">  Natasha Khurrana</font></a></p></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="flip" >
+                    <div class="flipin">
+                      <div class="flip-front" >
+                        <img src="fine1.jpeg" alt="mandala art">
+                      </div>
+                      <div class="flip-back" >
+                        <p class="pad" ><U>ABOUT</U><br>
+                      There are many characters conjured up by Nikhil Chopra, one of India’s leading performance artists and the current artist-in-residence at the Metropolitan Museum of Art.
+                          Whether roving the Met or walking from Athens to Kassel for Documenta 14 in 2017, contemplative drawing is integral to Chopra’s practice. 
+                          Chopra’s other whimsical characters have appeared at the Second Yinchuan Biennale in China in 2018, the Sharjah Biennial 12 in 2015, and the 53rd Venice Biennale in 2009.
+                        </p>
+                      </div>
+                    </div>
+                  </div><br>
+            </td>
+            <td>
+                <div class="flip" >
+                    <div class="flipin">
+                      <div class="flip-front" >
+                        <img src="digital2.jpeg" alt="glass">
+                      </div>
+                      <div class="flip-back" >
+                        <p class="pad" ><U>ABOUT</U>
+                        <br>
+                        Arpit Kohli is an Indian artist in painting and sculpture. He is well-known for using bold colors and contemporary graffiti painting style in his early works between 2010 and 2012. He resides and works in New York.
+                        </p>
+                      </div>
+                    </div>
+                  </div><br>
+            </td>
+        </tr>
+        <tr>
+          <td><p><a href="arpit.html" class="left"><font color="white">Arpit Kohli</font></a></p></td>
+         <td><p><a href="Nikhil.html" class="left"><font color="white"> Nikhil Chopra</font></a></p></td> 
+        </tr>
+    </table>
+    
+    </div>
+    
+    <script>
+      // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+    
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+    
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+    
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+    if (window.pageYOffset >= sticky) {
+     navbar.classList.add("sticky")
+    } else {
+     navbar.classList.remove("sticky");
+    }
+    }
+    </script>
+    
+    
+      
+    </body>
+    </html>

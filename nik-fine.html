@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKHIL - FINE</title>
+    <link rel="stylesheet" type="text/css" href="basic.css">
+    <style>
+
+.img{
+    height:1000px;
+     width:700px;
+    
+}
+    </style>
+</head>
+
+<body style="background-color: black;">
+
+  <div id="navbar">
+    <a href="login.html">Login/Sign-up</a>
+    <a href="feedback.html">Feedback</a>
+    <div class="dropdown">
+      <button class="dropbtn">View By 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="category.html">Category</a><br>
+        <a href="artist.html">Artists</a><br>
+      </div>
+    </div> 
+    <a href="wp.html">Home</a>
+  </div>
+  
+ <br>
+ <br>
+ <br>
+ <br>
+ <h2 class="btn">FINE ART BY NIKHIL CHOPRA</h2>
+    <table cellpadding="30" cellspacing="150" align="center">
+      <tr>
+        <td rowspan="2" align="border-left" >
+        <img class="img" src="nik-fine1.jpeg">
+        <p style="color: violet;font-size: 40px">
+          Art Description:<br>
+          The Swing, also known as The Happy Accidents of the Swing, is an 18th-century oil painting by 
+          Jean-Honoré Fragonard in the Wallace Collection in London. It is considered to be one of the 
+          masterpieces of the Rococo era, and is Fragonard's best known work.
+        </p>
+        
+        </td>
+        <td height="500px"></td>
+      </tr>
+      <tr>
+        
+        <td rowspan="2" align="border-right">
+            <img class="img" src="nik-fine2.jpeg">
+            <p style="color: violet;font-size: 40px">
+            Art Description:<br>
+            The Great Wave off Kanagawa , also known as The Great Wave or simply The Wave, is a woodblock
+             print by the Japanese ukiyo-e artist Hokusai. It was published sometime between 1829 and 1833 in 
+             the late Edo period as the first print in Hokusai's series Thirty-six Views of Mount Fuji. 
+             It is Hokusai's most famous work and is often considered the most recognizable work of Japanese
+              art in the world.
+ </p>
+            
+            </td>
+            <td height="500px"></td>
+      </tr>
+      <tr>
+        <td rowspan="2" align="border-left" >
+            <img class="img" src="nik-fine3.jpg">
+            <p style="color: violet;font-size: 40px">
+              Art Description:<br>
+              Melencolia I is a 1514 engraving by the German Renaissance artist Albrecht Dürer. 
+              This is a print in one of four woodcut series that illustrate "The Apocalypse", 
+              the "Passion of Christ", and the "Life of Mary." The print's central subject is an
+               enigmatic and gloomy winged female figure thought to be a personification of melancholia - melancholy. Holding her head in her hand, she stares past the busy scene in front of her. The area is strewn with symbols and tools associated with craft and carpentry, including an hourglass, weighing scales, a hand plane, a claw hammer, and a saw. Other objects relate to alchemy, geometry or numerology. Behind the figure is a structure with an embedded magic square, and a ladder leading beyond the frame. The sky contains a rainbow, a comet or planet, and a bat-like creature bearing the text that has become the print's title.
+
+</p>
+            
+            
+            </td>
+            <td height="500px"></td>
+
+      </tr>
+      </table>
+      <script>
+        // When the user scrolls the page, execute myFunction
+      window.onscroll = function() {myFunction()};
+      
+      // Get the navbar
+      var navbar = document.getElementById("navbar");
+      
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
+      
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+      if (window.pageYOffset >= sticky) {
+       navbar.classList.add("sticky")
+      } else {
+       navbar.classList.remove("sticky");
+      }
+      }
+      </script>
+      <footer>
+      
+        <table border=0 cellspacing="100px" cellpadding="10px" align="right">
+          <tr>
+            <td>
+              <font size = "6" color="white">
+                <b>Contact Us:</b>
+                     </font>
+            </td>
+            <td>
+              <a href="https://www.instagram.com/?hl=en">
+                <img src="instagram.png" height="30">
+                </a>
+            </td>
+            <td>
+              <a href="https://www.facebook.com/">
+                <img src="facebook.png" height="30">
+              </a>
+            </td>
+            <td>
+              <a href="https://twitter.com/?lang=en">
+                <img src="twitter.png" height="30">
+              </a>
+            </td>
+            <td>
+              <a href="https://www.youtube.com/">
+                <img src="youtube.png" height="30">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </footer>
+      </body>
+      </html>

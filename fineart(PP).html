@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRABHAKAR - FINE</title>
+    <link rel="stylesheet" type="text/css" href="basic.css">
+    <style>
+       
+
+.img{
+    height:1000px;
+     width:700px;
+    
+}
+    </style>
+</head>
+
+<body style="background-color: black;">
+
+  <div id="navbar">
+    <a href="login.html">Login/Sign-up</a>
+    <a href="feedback.html">Feedback</a>
+    <div class="dropdown">
+      <button class="dropbtn">View By 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="category.html">Category</a><br>
+        <a href="artist.html">Artists</a><br>
+      </div>
+    </div> 
+    <a href="wp.html">Home</a>
+  </div>
+  
+ <br>
+ <br>
+ <br>
+ <br>
+ <h2 class="btn">FINE ART BY PRABHAKAR PACHPUTE</h2>
+    <table cellpadding="30" cellspacing="150" align="center">
+      <tr>
+        <td rowspan="2" align="border-left" >
+        <img class="img" src="PP-fineart1.jpg">
+        <p style="color: violet;font-size: 40px">
+          Art Description:<br>
+          A very uniquely composed picture of a boat in primary colours against the white sand with a deep blue sky and random white clouds.<br> 
+          The absence of any human being makes it more inviting.</p>
+        
+        </td>
+        <td height="500px"></td>
+      </tr>
+      <tr>
+        
+        <td rowspan="2" align="border-right">
+            <img class="img" src="PP-fineart2.jpg">
+            <p style="color: violet;font-size: 40px">
+            Art Description:<br>
+            The reflections of the sun make the bay shine. Yellow to yellow, just like Van Gogh's sunflowers.
+            The background perspective and the scenic image are absolutely mesmerizing. </p>
+            
+            </td>
+            <td height="500px"></td>
+      </tr>
+      <tr>
+        <td rowspan="2" align="border-left" >
+            <img class="img" src="PP-fineart3.jpg">
+            <p style="color: violet;font-size: 40px">
+              Art Description:<br>
+              As the wind blows my mind, it glows the real beauty of you. At that moment i think about you, 
+              my mood goes in a swing mode just by seeing you. At that moment i wanna be with you, just to enjoy every moment with you. </p>
+            
+            
+            </td>
+            <td height="500px"></td>
+
+      </tr>
+      </table>
+      <script>
+        // When the user scrolls the page, execute myFunction
+      window.onscroll = function() {myFunction()};
+      
+      // Get the navbar
+      var navbar = document.getElementById("navbar");
+      
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
+      
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+      if (window.pageYOffset >= sticky) {
+       navbar.classList.add("sticky")
+      } else {
+       navbar.classList.remove("sticky");
+      }
+      }
+      </script>
+      <footer>
+      
+        <table border=0 cellspacing="100px" cellpadding="10px" align="right">
+          <tr>
+            <td>
+              <font size = "6" color="white">
+                <b>Contact Us:</b>
+                     </font>
+            </td>
+            <td>
+              <a href="https://www.instagram.com/?hl=en">
+                <img src="instagram.png" height="30">
+                </a>
+            </td>
+            <td>
+              <a href="https://www.facebook.com/">
+                <img src="facebook.png" height="30">
+              </a>
+            </td>
+            <td>
+              <a href="https://twitter.com/?lang=en">
+                <img src="twitter.png" height="30">
+              </a>
+            </td>
+            <td>
+              <a href="https://www.youtube.com/">
+                <img src="youtube.png" height="30">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </footer>
+      </body>
+      </html>

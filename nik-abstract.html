@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKHIL - ABSTRACT</title>
+    <link rel="stylesheet" type="text/css" href="basic.css">
+    <style>
+   
+
+.img1{
+    height:700px;
+     width:1000px;
+    
+}
+    </style>
+</head>
+
+<body style="background-color: black;">
+
+  <div id="navbar">
+    <a href="login.html">Login/Sign-up</a>
+    <a href="feedback.html">Feedback</a>
+    <div class="dropdown">
+      <button class="dropbtn">View By 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="category.html">Category</a><br>
+        <a href="artist.html">Artists</a><br>
+      </div>
+    </div> 
+    <a href="wp.html">Home</a>
+  </div>
+  
+ <br>
+ <br>
+ <br>
+ <br>
+ <h2 class="btn">ABSTRACT ART BY NIKHIL CHOPRA</h2>
+    <table cellpadding="30" cellspacing="150" align="center">
+      <tr>
+        <td rowspan="2" align="border-left" >
+        <img class="img1" src="nik-abs1.jpg">
+        <p style="color: violet;font-size: 40px">
+          Art Description:<br>
+          Composition VII is an abstract oil painting executed in 1913 by Wassily Kandinsky, a Russian-born painter. It is in the collection of the Tretyakov Gallery, Moscow. Art historians have concluded
+           that the work is a combination of the themes of Resurrection, Judgment Day, the Flood and the Garden of Eden.</p>
+        
+        </td>
+        <td height="500px"></td>
+      </tr>
+      <tr>
+        
+        <td rowspan="2" align="border-right">
+            <img class="img1" src="nik-abs2.jpg">
+            <p style="color: violet;font-size: 40px">
+            Art Description:<br>
+            Composition X is an abstract oil painting executed in 1939 by the artist Wassily Kandinsky, a Russian-born emigré
+             then living near Paris. It is in the collection of the Kunstsammlung Nordrhein-Westfalen, in Düsseldorf, Germany. </p>
+            
+            </td>
+            <td height="500px"></td>
+      </tr>
+      <tr>
+        <td rowspan="2" align="border-left" >
+            <img class="img1" src="nik-abs3.png">
+            <p style="color: violet;font-size: 40px">
+              Art Description:<br>
+              Vir Heroicus Sublimis is a 1951 painting by Barnett Newman, an American painter who was a key part of the abstract expressionist movement. Vir Heroicus Sublimis—"Man, Heroic and Sublime"
+               in Latin—attempts to evoke a reaction from its viewers because of its overwhelming scale and saturated color.</p>
+            
+            
+            </td>
+            <td height="500px"></td>
+
+      </tr>
+      </table>
+      <script>
+        // When the user scrolls the page, execute myFunction
+      window.onscroll = function() {myFunction()};
+      
+      // Get the navbar
+      var navbar = document.getElementById("navbar");
+      
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
+      
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+      if (window.pageYOffset >= sticky) {
+       navbar.classList.add("sticky")
+      } else {
+       navbar.classList.remove("sticky");
+      }
+      }
+      </script>
+      <footer>
+      
+        <table border=0 cellspacing="100px" cellpadding="10px" align="right">
+          <tr>
+            <td>
+              <font size = "6" color="white">
+                <b>Contact Us:</b>
+                     </font>
+            </td>
+            <td>
+              <a href="https://www.instagram.com/?hl=en">
+                <img src="instagram.png" height="30">
+                </a>
+            </td>
+            <td>
+              <a href="https://www.facebook.com/">
+                <img src="facebook.png" height="30">
+              </a>
+            </td>
+            <td>
+              <a href="https://twitter.com/?lang=en">
+                <img src="twitter.png" height="30">
+              </a>
+            </td>
+            <td>
+              <a href="https://www.youtube.com/">
+                <img src="youtube.png" height="30">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </footer>
+      </body>
+      </html>

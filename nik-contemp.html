@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKHIL - CONTEMPORARY</title>
+    <link rel="stylesheet" type="text/css" href="basic.css">
+    <style>
+       
+
+.img{
+    height:1000px;
+     width:700px;
+    
+}
+    </style>
+</head>
+
+<body style="background-color: black;">
+
+  <div id="navbar">
+    <a href="login.html">Login/Sign-up</a>
+    <a href="#news">Feedback</a>
+    <div class="dropdown">
+      <button class="dropbtn">View By 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Category</a><br>
+        <a href="artist.html">Artists</a><br>
+      </div>
+    </div> 
+    <a href="wp.html">Home</a>
+  </div>
+  
+ <br>
+ <br>
+ <br>
+ <br>
+ <h2 class="btn">CONTEMPORARY ART BY NIKHIL CHOPRA</h2>
+    <table cellpadding="30" cellspacing="150" align="center">
+      <tr>
+        <td rowspan="2" align="border-left" >
+        <img class="img" src="nik-contemp1.jpg">
+        <p style="color: violet;font-size: 40px">
+          Art Description:<br>
+          Jardim Gramacho, a 321-acre plot of land on the northern edge of Rio de Janeiro, was the world’s largest garbage dump until it closed in 2012. Between 2007 and 2010, the Jardim became a kind of studio for Brazilian-born, New York- and Rio-based artist Muniz. The artworks created there became a series
+           called Pictures of Garbage, which recreate iconic images from art history using trash collected from the dump.</p>
+        
+        </td>
+        <td height="500px"></td>
+      </tr>
+      <tr>
+        
+        <td rowspan="2" align="border-right">
+            <img class="img" src="nik-contemp2.jpg">
+            <p style="color: violet;font-size: 40px">
+            Art Description:<br>
+            Upon entering the Tate’s Turbine Hall, visitors to Eliasson’s The weather project were greeted by a huge glowing orb that hovered near the ceiling. A fine mist filled the hall, diffusing its spellbinding glow throughout the room. Because this work by the Danish-Icelandic artist effectively used the entire volume of the space, it was called the largest indoor contemporary
+             artwork ever produced. The installation became a phenomenon, and over two million people visited during its run. </p>
+            
+            </td>
+            <td height="500px"></td>
+      </tr>
+      <tr>
+        <td rowspan="2" align="border-left" >
+            <img class="img" src="nik-contemp3.jpg">
+            <p style="color: violet;font-size: 40px">
+              Art Description:<br>
+              On May 12, 2008, a 7.9-magnitude earthquake devastated Sichuan Province in western China, killing thousands of young students whose schools may not have met country-wide building standards. The government refused to investigate, and Chinese artist and activist Ai was compelled to act. The son of a poet who was denounced and exiled by the Chinese government, he had made a career out of creating artworks promoting freedom of
+               expression and human rights, and in the process, challenging Chinese cultural values and political authority.</p>
+            
+            
+            </td>
+            <td height="500px"></td>
+
+      </tr>
+      </table>
+      <script>
+        // When the user scrolls the page, execute myFunction
+      window.onscroll = function() {myFunction()};
+      
+      // Get the navbar
+      var navbar = document.getElementById("navbar");
+      
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
+      
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+      if (window.pageYOffset >= sticky) {
+       navbar.classList.add("sticky")
+      } else {
+       navbar.classList.remove("sticky");
+      }
+      }
+      </script>
+      <footer>
+      
+        <table border=0 cellspacing="100px" cellpadding="10px" align="right">
+          <tr>
+            <td>
+              <font size = "6" color="white">
+                <b>Contact Us:</b>
+                     </font>
+            </td>
+            <td>
+              <a href="https://www.instagram.com/?hl=en">
+                <img src="instagram.png" height="30">
+                </a>
+            </td>
+            <td>
+              <a href="https://www.facebook.com/">
+                <img src="facebook.png" height="30">
+              </a>
+            </td>
+            <td>
+              <a href="https://twitter.com/?lang=en">
+                <img src="twitter.png" height="30">
+              </a>
+            </td>
+            <td>
+              <a href="https://www.youtube.com/">
+                <img src="youtube.png" height="30">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </footer>
+      </body>
+      </html>
